@@ -1,0 +1,121 @@
+body, html{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+}
+
+header nav{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    padding: 0;
+    margin: 0 auto;
+    padding: 14px 0;
+    width: 80%;
+}
+
+header li {
+    display: inline;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 0 8px;
+}
+
+header a:hover {
+    color: black;
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(106, 16, 189);
+    padding: 24px 0;
+    color: white;
+}
+
+.head h1{
+    margin: 0;
+}
+
+.card{
+    margin: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 24px;
+}
+
+main{
+    display: flex;
+}
+
+.card h2{
+    color: blueviolet;
+}
+
+.card img{
+    width: 100%;
+}
+
+#visimisi div{
+    text-align: center;
+}
+
+#visimisi img{
+    width: 40%;
+}
+
+#about img{
+    width: 100%;
+}
+
+#about table{
+    margin: 0 auto;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    main{
+        display: inline;
+    }
+
+    #visimisi img{
+        width: 60%;
+    }
+
+    #about img{
+        width: 50%;
+    }
+
+    .profil{
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 425px){
+    header li{
+        display: block;
+        text-align: center;
+    }
+
+    #about img{
+        width: 100%;
+    }
+  }
